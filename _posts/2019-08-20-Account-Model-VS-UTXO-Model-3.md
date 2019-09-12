@@ -5,7 +5,7 @@ published: true
 
 > 天之道，损有余而补不足。 --《道德经》
 
-##### 为什么要写这一系列文章
+### 为什么要写这一系列文章
 
  其实关于这个主题，网上已经有很多相关文章了，随便一搜都一大把。这些文章有的是描述两种模式各自的优缺点，有的是通过打比方，让人更容易理解两种模式是什么样的。
 但是这些文章都只有How，没有Why。
@@ -16,7 +16,7 @@ published: true
 
 我觉得UTXO/Cell Model对应于一种叫[Arrow](https://wiki.haskell.org/Arrow)的计算模型；Account Model对应于一种可能更为大家熟悉的计算模型——[Monad](https://wiki.haskell.org/Monad)。
 
-##### 本文的内容
+### 本文的内容
 
 Arrow比Monad更加General。因此，UTXO/Cell Model也应该比Account Model更加General。
 
@@ -30,7 +30,7 @@ Arrow比Monad更加General。因此，UTXO/Cell Model也应该比Account Model�
 
 如果不了解，可以跳过相关的讨论，直接看结论。
 
-##### 形式化
+### 形式化
 
 我们先对原生token进行一个形式化的描述。
 
@@ -78,7 +78,7 @@ bitcoin_apply sigs tx utxo_set =
     utxo_set - (inputs tx) + (outputs tx)
 ```
 
-##### 一般化
+### 一般化
 
 eth的一般化就是提供了smart contract的能力。
 
@@ -112,7 +112,7 @@ Account Model显然对应Monad，具体来说就是State Monad。
 
 Function有输入（参数）类型和输出（返回值）类型。Arrow的两个类型参数，第一个表示输入类型，第二个表述输出类型。
 
-##### 差异
+### 差异
 
 通过一些讨论Arrow和Monad区别的文章，我们可以反推Cell Model和Account Model的差异。
 

@@ -3,7 +3,7 @@ title: Linear Logic 与 FRP
 published: true
 ---
 
-##### 交互与UI
+### 交互与UI
 
 在CKB的[Dapp开发框架](https://github.com/rink1969/ckb-generator)中，现阶段只有非常简单的命令式交互，也没有涉及到多方交互。
 
@@ -13,7 +13,7 @@ published: true
 
 出于用户友好的考虑，最好是有一个UI来做信息的展示和用户交互。
 
-##### Linear Logic Programming
+### Linear Logic Programming
 
 最近看到一个[视频](https://www.youtube.com/watch?v=bFeJZRdhKcI)，讲利用linear logic programming进行复杂规则游戏的原型验证。
 
@@ -43,7 +43,7 @@ published: true
 
 使用linear logic来描述规则对于维持不变量非常有帮助。
 
-##### 对于框架的意义
+### 对于框架的意义
 
 处理多个参与方的交互，我们可以借鉴上面的一些做法。
 
@@ -55,7 +55,7 @@ Dapp通常也都以链上数据为准，客户端如果跟链上状态没有同�
 
 当然使用linear logic之后，就可以在开发阶段发现一些破坏不变量的行为，这对提高Dapp质量是非常有帮助的。
 
-##### FRP
+### FRP
 
 Functional reactive programming是最近几年非常火的一项技术，多被用在交互式和UI领域。
 

@@ -3,14 +3,14 @@ title: 区块链需要逻辑编程
 published: true
 ---
 
-##### logic programming
+### logic programming
 
 逻辑编程有两个特点：
 
 1. 不区分输入和输出。可以正向计算，也可以反向计算。
 2. 可以处理不确定的情况。就像解代数方程一样，如果只有一个解，会输出这个解；如果有多个解，会把所有的解都找出来，当然用户也可以控制，找到任何一个解的时候就停下来。
 
-##### 对于区块链的意义
+### 对于区块链的意义
 
 尤其是对于Cell Model来说，非常适合，参见[文章](https://github.com/rink1969/ckb-generator/blob/master/README.md)。
 
@@ -18,7 +18,7 @@ published: true
 
 对于第二点，继续上面的例子，查找live cell的时候肯定有很多种组合可以满足要求。我们可以把所有可能的结果都列出来，然后再附加其他限制；也可以简单一点，找到任意一个结果就可以了。
 
-##### linear logic programming
+### linear logic programming
 
 在之前逻辑编程的基础上增加linear logic的限制。
 
@@ -184,7 +184,7 @@ minimalism
 
 逐渐修正
 
-##### Ceptre的例子
+### Ceptre的例子
 
 [项目仓库](https://github.com/chrisamaphone/interactive-lp)，README里面有预编译binary的下载链接。
 
@@ -278,7 +278,7 @@ let [x9, x8, x7] = transfer bob_key c bob alice alice_key [x4, [x6, [x5, []]]];
 
 这个对于Cell Model在用户交互层面会非常有用。
 
-##### Cell Model下Dapp架构
+### Cell Model下Dapp架构
 
 目前ckb-generator没有达到预期的效果，但是其中采用的合约组件的方式证明是可行的。
 

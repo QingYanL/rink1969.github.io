@@ -3,7 +3,7 @@ title:  无处不在的Linear Logic
 published: true
 ---
 
-##### Linear Logic
+### Linear Logic
 
 定义参见[wiki](https://zh.wikipedia.org/wiki/%E7%BA%BF%E6%80%A7%E9%80%BB%E8%BE%91)。
 
@@ -15,7 +15,7 @@ published: true
 
 比如，我有一块钱 ，然后一块钱可以买一个包子。我买了包子之后，手里就只有一个包子，原来的一块钱就没有了。
 
-##### 并行计算
+### 并行计算
 
 之前做过一段时间并行计算的研究，在知乎上有个相关的[回答](https://www.zhihu.com/question/26095260/answer/70880514)。
 
@@ -91,7 +91,7 @@ linux的调度系统给每个进程都营造一种当前进程独占一个cpu的
 
 这就像做选择题，不定项选择题比单选题的难度大了很多很多。
 
-##### 内存管理
+### 内存管理
 
 之前也研究过一段时间的GC算法，在知乎也有相关的[答案](https://www.zhihu.com/question/48420835/answer/110864894)。
 
@@ -103,7 +103,7 @@ linux的调度系统给每个进程都营造一种当前进程独占一个cpu的
 
 但是一个变量只能使用一次，意味着变量使用之后，其内存就不会再被使用了。这时完全可以不做内存回收和再次分配的动作，直接复用原有的内存。这样上面新的变量`x1`其实用的就是之前`x`的内存，甚至编译器优化之后就是`x = x + 1`这样的代码。
 
-##### Rust
+### Rust
 
 Rust的OwnerShip系统的思想源自Linear logic。
 
@@ -137,7 +137,7 @@ Rust的OwnerShip系统的思想源自Linear logic。
 
 因此实现Monad等非常抽象的结构时，困难重重。
 
-##### 区块链
+### 区块链
 
 [《Linear Types Can Change the Blockchain》](https://arxiv.org/pdf/1506.01001)这篇论文讲述了linear logic与Blockchain的关系。
 
@@ -187,7 +187,7 @@ Rust的OwnerShip系统的思想源自Linear logic。
 
 因此后续合约编程模型会考虑将linear logic也集成进去。
 
-##### 为什么叫linear
+### 为什么叫linear
 
 为什么linear logic叫linear？是因为其语义跟线性空间非常相关。
 
