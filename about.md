@@ -25,3 +25,4 @@ title: About Me
 - 《Rust at Cryptape》RustCon Asia 2019 ([link](https://github.com/rink1969/RustconAsia2019_cryptape_workshop))
 - 《特立独行的CKB》 Nervos系列Meetup北京站 2019.06  ([pdf](/assets/talks/ckb.pdf)，[文字](https://www.jianshu.com/p/2ec5d396079e)，[视频](https://www.bilibili.com/video/av54695988/))
 - 《Cell Model与Logic Programming》 Rust & Blockchain Meetup 2019.09 ([pdf](/assets/talks/Cell-Model-and-Logic-Programming.pdf)，[视频](https://www.youtube.com/watch?v=0rytag5Jktw))
+- 《区块链降级论》 2019.12.08 中科院([pdf](/assets/talks/blockchain-downgrade.pdf))
